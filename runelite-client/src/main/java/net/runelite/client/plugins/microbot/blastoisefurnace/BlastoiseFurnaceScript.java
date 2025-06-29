@@ -122,9 +122,9 @@ public class BlastoiseFurnaceScript extends Script {
 
                         }
 
-                        if (!Rs2Player.hasStaminaBuffActive() && Microbot.getClient().getEnergy() < 8100) {
-                            this.useStaminaPotions();
-                        }
+                       // if (!Rs2Player.hasStaminaBuffActive() && Microbot.getClient().getEnergy() < 8100) {
+                       //     this.useStaminaPotions();
+                       // }
 
                         // Check here if dispenser contains bars. If so we need to clean-up
                         if (dispenserContainsBars()) {
